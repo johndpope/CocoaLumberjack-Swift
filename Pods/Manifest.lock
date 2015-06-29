@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (1.2.3)
+  - CocoaLumberjack (2.0.1):
+    - CocoaLumberjack/Default (= 2.0.1)
+    - CocoaLumberjack/Extensions (= 2.0.1)
+  - CocoaLumberjack/Core (2.0.1)
+  - CocoaLumberjack/Default (2.0.1):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.1):
+    - CocoaLumberjack/Default
+  - CocoaLumberjack/Swift (2.0.1):
+    - CocoaLumberjack/Extensions
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, branch `swift-2.0`)
+  - CocoaLumberjack (from `https://github.com/CocoaLumberjack/CocoaLumberjack.git`,
+    branch `swift_2.0`)
+  - CocoaLumberjack/Swift (from `https://github.com/CocoaLumberjack/CocoaLumberjack.git`,
+    branch `swift_2.0`)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :branch: swift-2.0
+    :git: https://github.com/Alamofire/Alamofire.git
+  CocoaLumberjack:
+    :branch: swift_2.0
+    :git: https://github.com/CocoaLumberjack/CocoaLumberjack.git
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: fd71afb3a0af2042b9f05a6b9f29317ad4903703
+    :git: https://github.com/Alamofire/Alamofire.git
+  CocoaLumberjack:
+    :commit: 717c54a7c5ddb8612777866bdc4c48a7c44a1e13
+    :git: https://github.com/CocoaLumberjack/CocoaLumberjack.git
+
+SPEC CHECKSUMS:
+  Alamofire: 5550bf0b575ed1a4bf9be572f9463e1015cc169e
+  CocoaLumberjack: 27ae9abcd376c3e4ee726ecd4adfd7b093ddef3f
+
+COCOAPODS: 0.37.2
