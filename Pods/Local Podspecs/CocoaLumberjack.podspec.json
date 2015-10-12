@@ -20,7 +20,8 @@
   ],
   "platforms": {
     "ios": "5.0",
-    "osx": "10.7"
+    "osx": "10.7",
+    "watchos": "2.0"
   },
   "public_header_files": "Classes/*.h",
   "module_map": "Framework/Lumberjack/CocoaLumberjack.modulemap",
@@ -53,6 +54,9 @@
     },
     {
       "name": "CLI",
+      "platforms": {
+        "osx": "10.7"
+      },
       "source_files": "Classes/CLI/*.{h,m}",
       "dependencies": {
         "CocoaLumberjack/Default": [
@@ -64,7 +68,8 @@
       "name": "Swift",
       "platforms": {
         "ios": "8.0",
-        "osx": "10.10"
+        "osx": "10.10",
+        "watchos": "2.0"
       },
       "source_files": "Classes/CocoaLumberjack.swift",
       "dependencies": {
