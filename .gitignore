@@ -21,3 +21,6 @@ DerivedData
 
 # Carthage
 Carthage/Build
+
+#CocoaPods
+Pods
